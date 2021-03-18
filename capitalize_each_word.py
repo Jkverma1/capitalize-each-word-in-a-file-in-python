@@ -1,10 +1,10 @@
 # str "this is my first program"
 f = open("file.txt","r")
 content = f.read()
-newcontent = content.split()
+content = content.split()
 print(newcontent)
 result = str()
-for  i in newcontent:
+for  i in content:
     result+= i.capitalize()
     result+=" "
 print(result)
