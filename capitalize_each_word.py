@@ -10,4 +10,5 @@ print(result)
 f.close()
 f = open("file.txt","w")
 f.write(result)
+f.close()
     
