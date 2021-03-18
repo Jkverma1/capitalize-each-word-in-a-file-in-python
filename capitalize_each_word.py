@@ -2,7 +2,6 @@
 f = open("file.txt","r")
 content = f.read()
 content = content.split()
-print(newcontent)
 result = str()
 for  i in content:
     result+= i.capitalize()
